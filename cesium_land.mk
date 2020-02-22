@@ -22,6 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Inherit some CesiumOs stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+CUSTOM_BUILD_TYPE := OFFICIAL
 
 # Inherit from land device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
