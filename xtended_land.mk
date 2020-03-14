@@ -33,7 +33,10 @@ PRODUCT_NAME := xtended_land
 PRODUCT_MODEL := Redmi 3s
 
 TARGET_BOOT_ANIMATION_RES := 720
+<<<<<<< HEAD:xtended_land.mk
 TARGET_GAPPS_ARCH := arm64
+=======
+>>>>>>> 9fdd22b... land: Patch Goodix blobs to load custom libbinder:aosp_land.mk
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 TARGET_VENDOR_PRODUCT_NAME := land
